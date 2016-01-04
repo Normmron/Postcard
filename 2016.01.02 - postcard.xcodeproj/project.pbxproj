@@ -15,6 +15,8 @@
 		2EA410711C36CDE5001B572F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA4106F1C36CDE5001B572F /* LaunchScreen.storyboard */; };
 		2EA4107C1C36CDE5001B572F /* _016_01_02___postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA4107B1C36CDE5001B572F /* _016_01_02___postcardTests.swift */; };
 		2EA410871C36CDE5001B572F /* _016_01_02___postcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA410861C36CDE5001B572F /* _016_01_02___postcardUITests.swift */; };
+		2EA410951C381CC2001B572F /* GALLEON.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2EA410941C381CC2001B572F /* GALLEON.JPG */; };
+		2EA410971C381CD2001B572F /* DRAG01.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2EA410961C381CD2001B572F /* DRAG01.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2EA410821C36CDE5001B572F /* 2016.01.02 - postcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2016.01.02 - postcardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA410861C36CDE5001B572F /* _016_01_02___postcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_016_01_02___postcardUITests.swift"; sourceTree = "<group>"; };
 		2EA410881C36CDE5001B572F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA410941C381CC2001B572F /* GALLEON.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GALLEON.JPG; sourceTree = "<group>"; };
+		2EA410961C381CD2001B572F /* DRAG01.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DRAG01.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				2EA410631C36CDE5001B572F /* AppDelegate.swift */,
 				2EA410651C36CDE5001B572F /* ViewController.swift */,
 				2EA410671C36CDE5001B572F /* Main.storyboard */,
+				2EA410941C381CC2001B572F /* GALLEON.JPG */,
+				2EA410961C381CD2001B572F /* DRAG01.JPG */,
 				2EA4106D1C36CDE5001B572F /* Assets.xcassets */,
 				2EA4106F1C36CDE5001B572F /* LaunchScreen.storyboard */,
 				2EA410721C36CDE5001B572F /* Info.plist */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA410971C381CD2001B572F /* DRAG01.JPG in Resources */,
+				2EA410951C381CC2001B572F /* GALLEON.JPG in Resources */,
 				2EA410711C36CDE5001B572F /* LaunchScreen.storyboard in Resources */,
 				2EA4106E1C36CDE5001B572F /* Assets.xcassets in Resources */,
 				2EA410691C36CDE5001B572F /* Main.storyboard in Resources */,
