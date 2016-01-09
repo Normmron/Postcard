@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtEnterMoreText: UITextField!
     @IBOutlet weak var imgGalleon: UIImageView!
     @IBOutlet weak var btnSend: UIButton!
+    @IBOutlet weak var lblName: UILabel!
     
     
     
@@ -30,8 +31,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnSendPressed(sender: UIButton) {
+        //dummy comment
         lblMessage.hidden = false
-        lblMessage.text = txtEnterText.text
+        lblMessage.textColor = UIColor.purpleColor()
+        lblMessage.text = txtEnterMoreText.text
+        txtEnterMoreText.text = ""
+        lblName.hidden = false
+        lblName.textColor = UIColor.greenColor()
+        lblName.text = txtEnterText.text
         txtEnterText.text = ""
         lblMessage.textColor = UIColor.yellowColor()
         btnSend.setTitle("Mail Sent", forState: UIControlState.Normal)

@@ -127,6 +127,15 @@
                                     <rect key="frame" x="134" y="315" width="240" height="128"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gf-Le-GUu">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="13" y="33" width="192" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -138,6 +147,7 @@
                                 <exclude reference="YCL-Zn-blC"/>
                                 <exclude reference="coY-xH-8bJ"/>
                                 <exclude reference="zUN-st-IeC"/>
+                                <exclude reference="3Gf-Le-GUu"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -149,6 +159,7 @@
                                 <include reference="YCL-Zn-blC"/>
                                 <include reference="coY-xH-8bJ"/>
                                 <include reference="zUN-st-IeC"/>
+                                <include reference="3Gf-Le-GUu"/>
                             </mask>
                         </variation>
                     </view>
@@ -164,6 +175,7 @@
                         <outlet property="btnSend" destination="YCL-Zn-blC" id="6pa-Hh-Jd5"/>
                         <outlet property="imgGalleon" destination="hTo-pb-5Od" id="THa-WO-dq6"/>
                         <outlet property="lblMessage" destination="coY-xH-8bJ" id="qoD-Mr-a6y"/>
+                        <outlet property="lblName" destination="3Gf-Le-GUu" id="feb-U8-77w"/>
                         <outlet property="txtEnterMoreText" destination="gG5-Lj-lF0" id="ESI-Ps-PEd"/>
                         <outlet property="txtEnterText" destination="tUF-yr-Dfn" id="mIN-9b-01i"/>
                     </connections>
